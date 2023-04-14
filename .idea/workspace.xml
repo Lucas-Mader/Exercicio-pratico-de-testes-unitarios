@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="515222e6-8d0e-4e5a-935c-85478936168e" name="Changes" comment="" />
+    <list default="true" id="515222e6-8d0e-4e5a-935c-85478936168e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/senai/sc/BibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/senai/sc/BibliotecaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/senai/sc/ContaBancariaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/senai/sc/ContaBancariaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/senai/sc/ContaBancariaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/senai/sc/ContaBancariaTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,6 +50,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -49,23 +58,24 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PlaylistMusicaTest">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in ActivityJUnit5br. (1)">
+    <configuration name="All in ActivityJUnit5br. (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ActivityJUnit5br." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.senai.sc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.senai.sc" />
-      <option name="MAIN_CLASS_NAME" value="br.senai.sc.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BibliotecaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in ActivityJUnit5br." type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ActivityJUnit5br." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BibliotecaTest.buscarLivroPorTituloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ActivityJUnit5br." />
       <extension name="coverage">
         <pattern>
@@ -75,12 +85,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.senai.sc" />
       <option name="MAIN_CLASS_NAME" value="br.senai.sc.BibliotecaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="buscarLivroPorTituloTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContaBancariaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContaBancariaTest.sacarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ActivityJUnit5br." />
       <extension name="coverage">
         <pattern>
@@ -90,49 +101,33 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.senai.sc" />
       <option name="MAIN_CLASS_NAME" value="br.senai.sc.ContaBancariaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaylistMusicaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ActivityJUnit5br." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.senai.sc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.senai.sc" />
-      <option name="MAIN_CLASS_NAME" value="br.senai.sc.PlaylistMusicaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaylistMusicaTest.ordenarPorArtistaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ActivityJUnit5br." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.senai.sc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.senai.sc" />
-      <option name="MAIN_CLASS_NAME" value="br.senai.sc.PlaylistMusicaTest" />
-      <option name="METHOD_NAME" value="ordenarPorArtistaTest" />
+      <option name="METHOD_NAME" value="sacarTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.senai.sc in ActivityJUnit5br." type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ActivityJUnit5br." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.senai.sc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.senai.sc" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlaylistMusicaTest" />
-        <item itemvalue="JUnit.ContaBancariaTest" />
-        <item itemvalue="JUnit.BibliotecaTest" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.PlaylistMusicaTest.ordenarPorArtistaTest" />
+        <item itemvalue="JUnit.All in ActivityJUnit5br. (1)" />
+        <item itemvalue="JUnit.BibliotecaTest.buscarLivroPorTituloTest" />
+        <item itemvalue="JUnit.All in ActivityJUnit5br." />
+        <item itemvalue="JUnit.br.senai.sc in ActivityJUnit5br." />
+        <item itemvalue="JUnit.ContaBancariaTest.sacarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,11 +140,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680825101022</updated>
       <workItem from="1680825103715" duration="3171000" />
-      <workItem from="1681421340096" duration="1716000" />
+      <workItem from="1681421340096" duration="6971000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ActivityJUnit5br$All_in_ActivityJUnit5br_.ic" NAME="All in ActivityJUnit5br. Coverage Results" MODIFIED="1681430816819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -24,7 +24,8 @@ public class ContaBancariaTest {
 
     @Test
     public void getSaldoTest() {
-        assertEquals(0, contaBancaria.getSaldo());
+        contaBancaria.depositar(100);
+        assertEquals(100, contaBancaria.getSaldo());
     }
 
     @Test

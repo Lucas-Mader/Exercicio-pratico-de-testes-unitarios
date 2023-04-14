@@ -52,6 +52,13 @@ public class BibliotecaTest {
     }
 
     @Test
+    public void buscarLivroPorTituloTest() {
+        biblioteca.adicionarLivro(new Livro("HTGAWYM", "Cesar", "Romance", 1098));
+        Livro livro = biblioteca.buscarLivroPorTitulo("Cesar");
+        assertEquals(livro, biblioteca.buscarLivroPorTitulo("Cesar"));
+    }
+
+    @Test
     public void buscarLivrosPorGeneroTest() {
         biblioteca.adicionarLivro(new Livro("HTGAWYM", "Cesar", "Romance", 1098));
         biblioteca.adicionarLivro(new Livro("HTGAW22", "Juliana", "Romance", 1234));
